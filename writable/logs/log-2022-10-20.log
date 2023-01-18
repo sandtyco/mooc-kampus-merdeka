@@ -1,0 +1,39 @@
+CRITICAL - 2022-10-20 10:02:24 --> Call to undefined method CodeIgniter\Validation\Validation::error_array()
+in APPPATH\Controllers\Registrasi.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-20 10:12:24 --> syntax error, unexpected ')'
+in SYSTEMPATH\Validation\Validation.php on line 702.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('SYSTEMPATH\\Validation\\Validation.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\Validation\\Validation')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\Validation\\Validation')
+ 4 SYSTEMPATH\Config\Services.php(746): spl_autoload_call('CodeIgniter\\Validation\\Validation')
+ 5 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 6 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 7 SYSTEMPATH\Config\Services.php(741): CodeIgniter\Config\BaseService::getSharedInstance('validation', null)
+ 8 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::validation()
+ 9 APPPATH\Controllers\Registrasi.php(11): CodeIgniter\Config\BaseService::__callStatic('validation', [])
+10 SYSTEMPATH\CodeIgniter.php(864): App\Controllers\Registrasi->__construct()
+11 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-20 10:16:43 --> Undefined variable: _SESSION
+in SYSTEMPATH\Validation\Validation.php on line 727.
+ 1 SYSTEMPATH\Validation\Validation.php(727): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'SYSTEMPATH\\Validation\\Validation.php', 727, [])
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->getErrors()
+ 3 APPPATH\Controllers\Registrasi.php(55): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-20 10:18:39 --> Undefined variable: param
+in SYSTEMPATH\Validation\Validation.php on line 727.
+ 1 SYSTEMPATH\Validation\Validation.php(727): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: param', 'SYSTEMPATH\\Validation\\Validation.php', 727, [])
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->getErrors()
+ 3 APPPATH\Controllers\Registrasi.php(55): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

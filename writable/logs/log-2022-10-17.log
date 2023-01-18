@@ -1,0 +1,88 @@
+CRITICAL - 2022-10-17 13:07:45 --> Undefined property: App\Controllers\Registrasi::$form_validation
+in APPPATH\Controllers\Registrasi.php on line 53.
+ 1 APPPATH\Controllers\Registrasi.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Registrasi::$form_validation', 'APPPATH\\Controllers\\Registrasi.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 13:11:37 --> Undefined variable: validation
+in APPPATH\Controllers\Registrasi.php on line 59.
+ 1 APPPATH\Controllers\Registrasi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH\\Controllers\\Registrasi.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 13:13:00 --> Undefined property: App\Controllers\Registrasi::$validation
+in APPPATH\Controllers\Registrasi.php on line 59.
+ 1 APPPATH\Controllers\Registrasi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Registrasi::$validation', 'APPPATH\\Controllers\\Registrasi.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 13:13:25 --> Call to undefined method CodeIgniter\Validation\Validation::set_rules()
+in APPPATH\Controllers\Registrasi.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 13:16:20 --> Call to undefined method CodeIgniter\Validation\Validation::set_rules()
+in APPPATH\Controllers\Registrasi.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 17:59:21 --> Call to undefined method CodeIgniter\Validation\Validation::error_array()
+in APPPATH\Controllers\Registrasi.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 17:59:32 --> Call to undefined method CodeIgniter\Validation\Validation::error_array()
+in APPPATH\Controllers\Registrasi.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:12:45 --> Call to undefined method CodeIgniter\Validation\Validation::error()
+in APPPATH\Controllers\Registrasi.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:24:18 --> Call to a member function getError() on null
+in APPPATH\Controllers\Registrasi.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:25:16 --> Call to a member function getErrors() on null
+in APPPATH\Controllers\Registrasi.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:25:47 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\Registrasi.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:27:23 --> Call to undefined method CodeIgniter\Validation\Validation::error()
+in APPPATH\Controllers\Registrasi.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:29:12 --> Call to undefined method CodeIgniter\Validation\Validation::validation_errors()
+in APPPATH\Controllers\Registrasi.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-17 18:38:36 --> Undefined property: App\Controllers\Registrasi::$validate
+in APPPATH\Controllers\Registrasi.php on line 58.
+ 1 APPPATH\Controllers\Registrasi.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Registrasi::$validate', 'APPPATH\\Controllers\\Registrasi.php', 58, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Registrasi->registrasi_learner()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,3 @@
+# mooc-kampus-merdeka
+Currently, Educollabs is running a project in the form of working on a digital campus platform with a special concept. We work with several researchers and developers in working on it. This shared campus concept is a concept that adopts LMS and MOOC.
+The platform is still under construction since November 2022...
